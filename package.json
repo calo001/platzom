@@ -1,0 +1,32 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Proyecto de lenguaje inventado con JS",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calo001/platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "lang",
+    "js"
+  ],
+  "author": "Carlos Lopez <calo_lrc@hotmail.com> (https://github.com/calo001)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calo001/platzom/issues"
+  },
+  "homepage": "https://github.com/calo001/platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
